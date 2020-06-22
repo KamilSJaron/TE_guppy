@@ -1,0 +1,2 @@
+# source activate repeat_masking
+RepeatMasker -pa 32 -no_is -gc 39.71 -a -lib /data/charlesworth/guppy/analyses/repeatmodeler/47620/guppy-families.fa -div 30 -xsmall -gff /data/charlesworth/guppy/raw/PacBio_male/upper_guppy_pacbio_male.fasta -dir /scratch/kyang/repeatMasker && rsync -r /scratch/kyang/repeatMasker /data/charlesworth/guppy/analyses/rmasker && rm -r /scratch/kyang/repeatMasker
